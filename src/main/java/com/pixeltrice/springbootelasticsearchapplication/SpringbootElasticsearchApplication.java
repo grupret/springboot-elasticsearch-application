@@ -8,11 +8,7 @@ import org.springframework.web.client.RestTemplate;
 public class SpringbootElasticsearchApplication {
 
 	public static void main(String[] args) {
-		RestTemplate restTemplate = new RestTemplate();
-		String forObject = restTemplate.getForObject("http://cdn.jsdelivr.net/npm/vue@2.6.14",
-			String.class);
-		System.out.println(forObject);
-//		SpringApplication.run(SpringbootElasticsearchApplication.class, args);
+		SpringApplication.run(SpringbootElasticsearchApplication.class, args);
 	}
 
 }
